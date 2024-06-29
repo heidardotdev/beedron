@@ -1,16 +1,25 @@
 /* -------------------------------------------------------------------------- */
 /*                                 reset style                                */
 /* -------------------------------------------------------------------------- */
-html{
+html {
     box-sizing: border-box;
-    font-size: 62.5%;/*10px*/
+    font-size: 62.5%;
+    /*10px*/
 }
-*,*::after,*::before{
+
+*,
+*::after,
+*::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
-button,a,input,ul,li{
+
+button,
+a,
+input,
+ul,
+li {
     background: none;
     border: none;
     outline: none;
@@ -26,23 +35,28 @@ button,a,input,ul,li{
     font-family: ExtraBold;
     src: url(/font/Inter-ExtraBold.ttf);
 }
+
 @font-face {
-    font-family:Inter-Black ;
+    font-family: Inter-Black;
     src: url(/font/Inter-Black.ttf);
 }
+
 @font-face {
     font-family: ExtraBold;
     src: url(/font/Inter-ExtraBold.ttf);
 }
+
 @font-face {
     font-family: Bold;
     src: url(/font/Inter-Bold.ttf);
 }
+
 @font-face {
     font-family: Inter-SemiBold;
     src: url(/font/Inter-SemiBold.ttf);
 }
-body{
+
+body {
     font-family: bold;
     font-size: 2rem;
 }
@@ -51,14 +65,21 @@ body{
 /* -------------------------------------------------------------------------- */
 /*                                    root                                    */
 /* -------------------------------------------------------------------------- */
-:root{
-    --primery-color:#FFCD6D;
-    --secondry-color:#FFAC0B;
-    --white:#fff;
+:root {
+    --primery-color: #FFCD6D;
+    --secondry-color: #FFAC0B;
+    --white: #fff;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                  container                                 */
 /* -------------------------------------------------------------------------- */
+.container {
+    margin: 0 auto;
+    max-width: 140rem;
+    width: 100%;
+    position: relative;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                 componennt                                 */
