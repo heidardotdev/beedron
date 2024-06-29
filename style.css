@@ -22,6 +22,29 @@ button,a,input,ul,li{
 /*                                    font                                    */
 /* -------------------------------------------------------------------------- */
 
+@font-face {
+    font-family: ExtraBold;
+    src: url(/font/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family:Inter-Black ;
+    src: url(/font/Inter-Black.ttf);
+}
+@font-face {
+    font-family: ExtraBold;
+    src: url(/font/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(/font/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(/font/Inter-SemiBold.ttf);
+}
+
+
+
 /* -------------------------------------------------------------------------- */
 /*                                    root                                    */
 /* -------------------------------------------------------------------------- */
