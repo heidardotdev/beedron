@@ -59,6 +59,7 @@ li {
 body {
     font-family: bold;
     font-size: 2rem;
+    background-color: var(--primery-color);
 }
 
 
