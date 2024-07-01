@@ -123,11 +123,25 @@ nav {
     column-gap: 6rem;
     position: relative;
 }
-.bars-box{
-    position: relative;
+
+.bars-box {
+    cursor: pointer;
 }
+
+.bars-box:hover .bars__line {
+    background-color: transparent;
+}
+
+.bars-box:hover .bars__line::before {
+    transform: translateY(1.5rem) rotate(-45deg);
+}
+
+.bars-box:hover .bars__line::after {
+    transform: translateY(-1.5rem) rotate(45deg);
+}
+
 .bars__line {
-    position: absolute;
+    position: relative;
     width: 4rem;
 }
 
@@ -135,16 +149,17 @@ nav {
 .bars__line::after,
 .bars__line::before {
     background-color: var(--white);
+    width: 4rem;
     height: .5rem;
     border-radius: 100rem;
+    transition: all 250ms ease-out;
 }
 
 .bars__line::after {
     content: "";
     position: absolute;
     top: 1.5rem;
-    width: 2rem;
-    left: 0;
+    right: 0;
 
 
 }
@@ -153,11 +168,12 @@ nav {
     content: "";
     position: absolute;
     bottom: 1.5rem;
-    width: 2rem;
-    right: 0;
+    left: 0;
+
 
 
 }
+
 
 /* -------------------------------------------------------------------------- */
 /*                                    main                                    */
