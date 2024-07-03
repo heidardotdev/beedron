@@ -345,12 +345,24 @@ nav {
     width: 50rem;
     height: 5rem;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.20);
+    background-color: rgba(255, 255, 255, 0.10);
     top: 0;
     bottom: 0;
     padding-bottom: 17rem;
     margin: 10rem auto 0 ;
     border-radius: 4rem 0 0 4rem;
+}
+.header__offer-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    text-transform: uppercase;
+}
+.header__offer-content-text{
+    width: 25rem;
+}
+.header__offer-content-link-box{
+    cursor: pointer;
 }
 
 
