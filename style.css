@@ -246,6 +246,15 @@ nav {
 /*                         header wrapper style start                         */
 /* -------------------------------------------------------------------------- */
 
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
