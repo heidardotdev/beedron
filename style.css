@@ -271,7 +271,7 @@ nav {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    align-self: flex-;
+    align-self: flex-start;
     margin-top: 7rem;
     width: 50%;
     text-transform: uppercase;
