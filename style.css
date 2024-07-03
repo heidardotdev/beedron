@@ -94,10 +94,11 @@ body {
 /* -------------------------------------------------------------------------- */
 /*                                header style                                */
 /* -------------------------------------------------------------------------- */
-header{
+header {
     display: flex;
     flex-direction: column;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                              navigation style                              */
 /* -------------------------------------------------------------------------- */
@@ -139,25 +140,28 @@ nav {
     position: relative;
 }
 
-.menu__item:nth-child(2){
+.menu__item:nth-child(2) {
     position: relative;
     transition: all 250ms ease-out;
 }
-.menu__item:nth-child(2):hover img:nth-child(1){
+
+.menu__item:nth-child(2):hover img:nth-child(1) {
     transform: rotate(180deg);
 }
-.menu__item:nth-child(2):hover .menu__item-submenu{
+
+.menu__item:nth-child(2):hover .menu__item-submenu {
     opacity: 1;
     top: 7rem;
 }
-.menu__item-submenu{
+
+.menu__item-submenu {
     background-color: rgba(255, 255, 255, .10);
     text-align: center;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    border-radius:2rem;
+    border-radius: 2rem;
     opacity: 0;
     left: 0;
     right: 0;
@@ -166,14 +170,16 @@ nav {
     position: absolute;
     transition: all 250ms ease-out;
 }
-.menu__item-submenu__item-link{
+
+.menu__item-submenu__item-link {
     padding: 12px;
     border-radius: 1rem;
     transition: all 250ms ease-out;
 }
+
 .menu__item-submenu__item-link:hover {
     background-color: var(--white);
-   color: var(--primery-color);
+    color: var(--primery-color);
 }
 
 
@@ -235,7 +241,7 @@ nav {
 /*                            header wrapper style                            */
 /* -------------------------------------------------------------------------- */
 
-.header__wrapper{
+.header__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -246,11 +252,12 @@ nav {
 /* -------------------------------------------------------------------------- */
 
 
-.header__image-box{
+.header__image-box {
     max-width: 55%;
     width: 100%;
 }
-.header__image{
+
+.header__image {
     width: 100%;
 }
 
@@ -260,7 +267,7 @@ nav {
 /* -------------------------------------------------------------------------- */
 
 
-.header__content{
+.header__content {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
@@ -274,7 +281,7 @@ nav {
 /*                             header title style                             */
 /* -------------------------------------------------------------------------- */
 
-.header__content-title{
+.header__content-title {
     max-width: 35rem;
     font-family: "extrabold";
     font-size: 9rem;
@@ -285,7 +292,7 @@ nav {
 /*                            header caption style                            */
 /* -------------------------------------------------------------------------- */
 
-.header__content-text{
+.header__content-text {
     max-width: 53rem;
     font-family: inter-semibold;
 }
@@ -295,13 +302,13 @@ nav {
 /* -------------------------------------------------------------------------- */
 
 
-.header__content-links{
+.header__content-links {
     display: flex;
     align-items: center;
     column-gap: 2rem;
 }
 
-.header__content-link{
+.header__content-link {
     padding: 1.5rem 3.5rem;
     border-radius: 1rem;
     background-color: var(--white);
@@ -312,7 +319,7 @@ nav {
 
 
 
-.header__content-link:last-child{
+.header__content-link:last-child {
     background-color: transparent;
     color: white;
     padding: 1.5rem 2rem;
@@ -323,7 +330,28 @@ nav {
 /*                             header offer style                             */
 /* -------------------------------------------------------------------------- */
 
+.header__offer {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+}
 
+.header__offer-wrapper{
+    display: flex;
+    align-items: center;
+}
+.header__offer-background{
+    position: absolute;
+    width: 50rem;
+    height: 5rem;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.20);
+    top: 0;
+    bottom: 0;
+    padding-bottom: 17rem;
+    margin: 10rem auto 0 ;
+    border-radius: 4rem 0 0 4rem;
+}
 
 
 
