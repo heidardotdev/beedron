@@ -280,6 +280,7 @@ nav {
     align-self: flex-start;
     margin-top: 7rem;
     width: 50%;
+    text-transform: uppercase;
 }
 /* -------------------------------------------------------------------------- */
 /*                          header title style start                          */
@@ -289,7 +290,6 @@ nav {
     font-family: "extrabold";
     font-size: 9rem;
     line-height: .9;
-    text-transform: uppercase;
 }
 /* -------------------------------------------------------------------------- */
 /*                           header title style end                           */
@@ -321,7 +321,6 @@ nav {
     background-color: var(--white);
     color: var(--primery-color);
     border: .3rem solid var(--white);
-    text-transform: uppercase;
 
 }
 
