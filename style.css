@@ -276,7 +276,7 @@ nav {
 .header__content{
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 2rem;
     align-self: flex-start;
     margin-top: 7rem;
     width: 50%;
