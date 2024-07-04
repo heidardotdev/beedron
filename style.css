@@ -102,7 +102,7 @@ nav,
 .menu{
     column-gap: 5rem;
 }
-.menu, .logo__img-box, .bars__wrapper{
+.menu, .logo__img-box{
     background-color: rgba(255, 255, 255, .10);
     padding: 3rem;
     border-radius: 2rem;
