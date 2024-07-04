@@ -28,6 +28,8 @@ input {
 
 
 /* ------------------------------- root style ------------------------------- */
+
+
 :root {
     --primery-color: #FFCD6D;
     --secondry-color: #FFAC0B;
@@ -35,6 +37,8 @@ input {
     --text-color:#fff;
 }
 
+
+/* ----------------------------- container style ---------------------------- */
 
 .container{
     margin: 0 auto;
