@@ -61,3 +61,13 @@ input {
     font-family: SemiBold;
     src: url(/font/Inter-SemiBold.ttf);
 }
+
+
+
+/* ------------------------------- body style ------------------------------- */
+
+body{
+    font-size: 1.8rem;
+    font-family: "semibold";
+    background-color: var(--primery-color);
+}
