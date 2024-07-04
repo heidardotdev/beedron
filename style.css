@@ -97,6 +97,54 @@ nav,
     align-items: center;
 }
 
+.menu{
+    column-gap: 5rem;
+}
+.menu, .logo__img-box, .bars__wrapper{
+    background-color: rgba(255, 255, 255, .10);
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.menu__item:nth-child(2){
+    position: relative;
+    transition: all 200ms ease-in 180ms;
+}
+.menu__item:nth-child(2):hover .submenu{
+    opacity: 1;
+    top: 7rem;
+}
+.menu__item-icon{
+    transition: all 200ms ease-in 180ms;
+}
+.menu__item:nth-child(2):hover .menu__item-icon{
+    transform: rotate(180deg);
+}
+.submenu{
+    position: absolute;
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    top: -20rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .10);
+    opacity: 0;
+    width: 100%;
+    padding: 2rem 0 ;
+    border-radius: 2rem;
+    transition: all 200ms ease-in 180ms;
+}
+.submenu__item-link{
+    padding: 1rem;
+    border-radius: 1.3rem;
+    transition: all 250ms ease-out;
+}
+.submenu__item-link:hover{
+    background-color: var(--third-color);
+    color: var(--primery-color);
+}
 
 /* ----------------------------- respnsive style ---------------------------- */
 
