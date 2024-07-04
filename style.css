@@ -111,6 +111,9 @@ nav,
     position: relative;
     transition: all 200ms ease-in 180ms;
 }
+
+/* ----------------------------- menu item hove ----------------------------- */
+
 .menu__item:nth-child(2):hover .submenu{
     opacity: 1;
     top: 7rem;
