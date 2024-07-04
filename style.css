@@ -343,7 +343,7 @@ nav {
 }
 .header__offer-background{
     position: absolute;
-    width: 50rem;
+    width: 45rem;
     height: 5rem;
     right: 0;
     background-color: rgba(255, 255, 255, 0.10);
@@ -367,7 +367,35 @@ nav {
 /*                          header rounded box style                          */
 /* -------------------------------------------------------------------------- */
 
-
+.roanded-shap-box{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, var(--white), transparent) ;
+    width: 5rem;
+    height: 8rem;
+    border-radius: 100rem;
+    position: absolute;
+    bottom: 8rem;
+    right: 100rem;
+}
+.roanded-rectangel{
+    width: 4rem;
+    height: 7rem;
+    background-color: var(--primery-color);
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.circle{
+    background-image:linear-gradient(to bottom, var(--white), transparent) ;
+    width: 3rem;
+    height: 3rem;
+    margin-top: .5rem;
+    border-radius: 100%;
+}
 
 
 
