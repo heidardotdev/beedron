@@ -86,7 +86,35 @@ body {
 /* -------------------------------------------------------------------------- */
 /*                                 componennt                                 */
 /* -------------------------------------------------------------------------- */
-
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 7rem;
+}
+.section-title__text-wrapper{
+    position: relative;
+    padding: 1rem 0;
+}
+.section-title__text-wrapper::before{
+    bottom: 0;
+    right: 0;
+}
+.section-title__text-wrapper::before,
+.section-title__text-wrapper::after
+{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: .5rem;
+    background-color: var(--white);
+}
+.section-title__text-wrapper::after{
+    top: 0;
+    left: 0;
+}
 /* -------------------------------------------------------------------------- */
 /*                                helper class                                */
 /* -------------------------------------------------------------------------- */
