@@ -24,3 +24,12 @@ input {
     outline: none;
     list-style-type: none;
 }
+
+
+/* ------------------------------- root style ------------------------------- */
+:root {
+    --primery-color: #FFCD6D;
+    --secondry-color: #FFAC0B;
+    --third-color: #fff;
+    --text-color:#fff;
+}
