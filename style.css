@@ -1,2 +1,26 @@
 /* ------------------------- reset style of the app ------------------------- */
 
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*10px*/
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+ul,
+li,
+button,
+input {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style-type: none;
+}
