@@ -97,6 +97,8 @@ nav,
     align-items: center;
 }
 
+/* ---------------------------------- menu ---------------------------------- */
+
 .menu{
     column-gap: 5rem;
 }
@@ -119,6 +121,9 @@ nav,
 .menu__item:nth-child(2):hover .menu__item-icon{
     transform: rotate(180deg);
 }
+
+/* --------------------------------- submenu -------------------------------- */
+
 .submenu{
     position: absolute;
     row-gap: 2rem;
