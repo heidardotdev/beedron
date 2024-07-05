@@ -216,7 +216,7 @@ nav,
     display: flex;
     align-items: center;
     column-gap: 2rem;
-    margin-top: 2rem;
+    height: 7rem;
 }
 
 
