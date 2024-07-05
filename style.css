@@ -288,7 +288,41 @@ nav,
 
 /* -------------------------- header rouanded shape ------------------------- */
 
+.header__rounded-shape{
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+}
 
+
+.header__rounded-wrapper{
+    border-radius: 10rem;
+    width: 5rem;
+    height: 8rem;
+    background-image: linear-gradient(to bottom, var(--third-color), transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__rounded-rectangel{
+    border-radius: inherit;
+    width: 4rem;
+    height: 7rem;
+    background-color: var(--primery-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header__circle{
+    width: 3rem;
+    height: 3rem;
+    background-image: linear-gradient(to bottom, var(--third-color), transparent);
+    border-radius: 100%;
+    margin-top: .5rem;
+}
 
 /* ----------------------------- respnsive style ---------------------------- */
 
