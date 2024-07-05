@@ -212,6 +212,12 @@ nav,
     font-size: 3rem;
 }
 
+.header__content-links{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
 
 /* ----------------------------- respnsive style ---------------------------- */
 
