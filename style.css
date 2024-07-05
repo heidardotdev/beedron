@@ -164,7 +164,7 @@ nav,
     column-gap: 2rem;
 }
 
-.header__links-item{
+.header__links-item-link{
     padding: 2rem 5rem;
     border-radius: 2rem;
     text-transform: uppercase;
@@ -173,7 +173,7 @@ nav,
     align-items: center;
     border: .3rem var(--third-color) solid;
 }
-.header__links-item--active{
+.header__links-item--active a{
     background-color: var(--third-color);
 }
 .header__links-item--active a{
@@ -216,8 +216,21 @@ nav,
     display: flex;
     align-items: center;
     column-gap: 2rem;
+    margin-top: 2rem;
 }
 
+
+.header__content-links-item-link{
+    color: var(--text-color);
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: .3rem var(--third-color) solid;
+
+}
+.header__content-links-item-link--active{
+    background-color: var(--third-color);
+    color: var(--primery-color);
+}
 
 /* ----------------------------- respnsive style ---------------------------- */
 
