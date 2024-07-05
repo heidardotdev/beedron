@@ -88,6 +88,41 @@ body{
 
 /* ------------------------------- componennt ------------------------------- */
 
+.section__title-box{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "bold";
+    position: relative;
+    text-align: center;
+    width: 21.1rem;
+    padding: .5rem 0;
+}
+
+.section__title::before{
+    left: 0;
+    top: 0;
+}
+
+
+.section__title::before, 
+.section__title::after{
+    content: "";
+    position: absolute;
+    background-color: var(--third-color);
+    width: 3rem;
+    height: .3rem;
+}
+.section__title::after{
+    bottom: 0;
+    right: 0;
+}
 
 
 /* --------------------------------- header --------------------------------- */
