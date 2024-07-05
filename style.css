@@ -207,6 +207,11 @@ nav,
     text-transform: uppercase;
 }
 
+.header__content-text{
+    max-width:70rem ;
+    font-size: 3rem;
+}
+
 
 /* ----------------------------- respnsive style ---------------------------- */
 
