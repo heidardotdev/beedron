@@ -89,7 +89,7 @@ body{
 /* ------------------------------- componennt ------------------------------- */
 
 .section__title-box{
-    margin-top: 10rem;
+    margin: 10rem 0 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
