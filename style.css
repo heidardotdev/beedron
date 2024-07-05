@@ -179,6 +179,18 @@ nav,
 .header__links-item--active a{
     color: var(--primery-color);
 }
+
+
+/* ----------------------------- header wrapper ----------------------------- */
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+
 /* ----------------------------- respnsive style ---------------------------- */
 
 @media (max-width: 1400px) {
