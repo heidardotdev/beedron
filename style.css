@@ -92,6 +92,7 @@ header{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    position: relative;
 }
 
 
