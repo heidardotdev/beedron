@@ -200,7 +200,12 @@ nav,
     row-gap: 2rem;
 }
 
-
+.header__content-title{
+    font-size: 10rem;
+    font-family: "extrabold";
+    line-height: 1;
+    text-transform: uppercase;
+}
 
 
 /* ----------------------------- respnsive style ---------------------------- */
