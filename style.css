@@ -31,8 +31,8 @@ input {
 
 
 :root {
-    --primery-color: #FFCD6D;
-    --secondry-color: #FFAC0B;
+    --primery-color: rgb(255, 205, 109);
+    --secondry-color: rgb(255, 172, 11);
     --third-color: #fff;
     --text-color:#fff;
 }
