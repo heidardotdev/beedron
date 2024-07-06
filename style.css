@@ -582,13 +582,13 @@ text-transform: uppercase;
     margin: 10rem 0 10rem;
 }
 
-.slider-state__circle--current-slide{
+.slider-state__circle-current-slide{
     width: 3rem !important;
     border-radius: 1rem;
 }
 
 .slider-state__circle,
-.slider-state__circle--current-slide{
+.slider-state__circle-current-slide{
     width: 1.5rem;
     height: 1.5rem;
     background-color: var(--third-color);
