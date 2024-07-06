@@ -517,6 +517,60 @@ text-transform: uppercase;
 /* ---------------------------- comments section ---------------------------- */
 
 
+.comments__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10rem;
+}
+
+.comment{
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, .10);
+    border-radius: 8rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.comment__profile{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.comment__profile-img-box{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+}
+.comment__profile-img{
+    box-shadow: -0.2rem .7rem 5rem -1rem black;
+    border-radius: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.comment__profile-info-name{
+    font-size: 1.8rem;
+}
+.comment__profile-rate{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment__text{
+    opacity: .75;
+    width: 34rem;
+}
+
+
+
 /* ----------------------------- respnsive style ---------------------------- */
 
 @media (max-width: 1400px) {
