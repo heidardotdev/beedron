@@ -381,6 +381,14 @@ nav,
 /* ----------------------------- producs section ---------------------------- */
 
 
+.products__wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+    overflow-x: scroll;
+    padding: 0 0 5rem 10rem;
+}
+
 
 /* ----------------------------- respnsive style ---------------------------- */
 
