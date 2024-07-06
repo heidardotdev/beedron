@@ -389,6 +389,49 @@ nav,
     padding: 0 0 5rem 10rem;
 }
 
+.product{
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 2rem;
+text-align: center;
+text-transform: uppercase;
+}
+
+.product__profile{
+    background-color: rgba(255, 255, 255, .10);
+    width: 25rem;
+    height: 25rem;
+    padding: 3rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product__profile-img{
+    width: 100%;
+}
+
+.product__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.product__content-title{
+    font-size: 2.5rem;
+    font-family: "extrabold";
+}
+
+.product__content-btn{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: var(--primery-color);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 
 /* ----------------------------- respnsive style ---------------------------- */
 
