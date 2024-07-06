@@ -512,6 +512,11 @@ text-transform: uppercase;
 .collection__arrow-right-img{
     width: 100%;
 }
+
+
+/* ---------------------------- comments section ---------------------------- */
+
+
 /* ----------------------------- respnsive style ---------------------------- */
 
 @media (max-width: 1400px) {
