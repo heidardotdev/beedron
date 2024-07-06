@@ -383,8 +383,8 @@ nav,
 .products__wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 10rem;
-    overflow-x: scroll;
     padding: 0 10rem 0rem 10rem;
 }
 
