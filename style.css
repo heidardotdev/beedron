@@ -614,7 +614,7 @@ footer{
 
 .footer__wrapper{
     display: flex;
-    column-gap: 20rem;
+    column-gap: 10rem;
 }
 
 /* ----------------------------- footer caption ----------------------------- */
