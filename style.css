@@ -679,12 +679,12 @@ footer{
 }
 .community__input-box input[type="email"]{
     background-color: transparent;
-    text-transform: capitalize;
     font-size: 1.5rem;
     margin-left: 2rem;
 }
 .community__input-box input[type="email"]::placeholder{
     color: var(--text-color);
+    text-transform: capitalize;
 }
 
 .community__input-box input[type="submit"]{
