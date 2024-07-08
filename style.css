@@ -639,6 +639,8 @@ footer{
 }
 
 
+/* ------------------------------ footer title ------------------------------ */
+
 .footer__title{
     font-size: 2.3rem;
     text-transform: uppercase;
@@ -654,6 +656,8 @@ footer{
 .community .footer__title{
     width:27rem;
 }
+
+/* ----------------------------- footer link box ---------------------------- */
 
 .quick-links__link-box,
 .social-media__link-box{
