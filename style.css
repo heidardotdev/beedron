@@ -625,6 +625,11 @@ footer{
     align-items: start;
     row-gap: 3rem;
 }
+.footer__caption-title-box{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
 
 
 /* ----------------------------- respnsive style ---------------------------- */
