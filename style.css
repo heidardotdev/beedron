@@ -698,7 +698,12 @@ footer{
 }
 
 /* ----------------------------- footer seprater ---------------------------- */
-
+.seprater{
+    width: 35%;
+    height: .3rem;
+    margin: 3rem auto 0;
+    background-color: var(--third-color);
+}
 
 
 
