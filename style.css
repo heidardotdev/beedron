@@ -694,6 +694,7 @@ footer{
     font-size: 1.5rem;
     font-family: "bold";
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
