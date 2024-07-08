@@ -640,6 +640,10 @@ footer{
     text-transform: uppercase;
 }
 
+.quick-links .footer__title{
+    width: 15rem;
+}
+
 .quick-links__link-box,
 .social-media__link-box{
     display: flex;
