@@ -668,6 +668,16 @@ footer{
 }
 
 /* ----------------------------- footer commuity ---------------------------- */
+.community__input-box{
+    border: .3rem solid var(--third-color);
+    border-radius: .9rem;
+    height: 5rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 2rem;
+}
+
 
 
 
