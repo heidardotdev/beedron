@@ -647,6 +647,13 @@ footer{
 .quick-links .footer__title{
     width: 15rem;
 }
+.social-media .footer__title{
+    width:17rem;
+}
+
+.community .footer__title{
+    width:27rem;
+}
 
 .quick-links__link-box,
 .social-media__link-box{
