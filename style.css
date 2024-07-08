@@ -640,6 +640,12 @@ footer{
     text-transform: uppercase;
 }
 
+.quick-links__link-box,
+.social-media__link-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
 
 
 
