@@ -670,7 +670,7 @@ footer{
 /* ----------------------------- footer commuity ---------------------------- */
 .community__input-box{
     border: .3rem solid var(--third-color);
-    border-radius: .9rem;
+    border-radius: 1.5rem;
     height: 5rem;
     width: 40rem;
     display: flex;
