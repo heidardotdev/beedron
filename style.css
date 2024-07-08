@@ -636,6 +636,8 @@ footer{
 
 .footer__caption-text{
     max-width: 50rem;
+    opacity: .75;
+    font-family: "semibold";
 }
 
 
