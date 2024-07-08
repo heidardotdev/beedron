@@ -632,6 +632,13 @@ footer{
 }
 
 
+.footer__title{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+
+
 /* ----------------------------- respnsive style ---------------------------- */
 
 @media (max-width: 1400px) {
