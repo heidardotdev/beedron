@@ -137,6 +137,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.opacity{
+    opacity: .75;
+}
 
 
 
