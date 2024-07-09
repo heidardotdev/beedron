@@ -235,9 +235,6 @@ nav,
     padding: 2rem 5rem;
     border-radius: 2rem;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: .3rem var(--third-color) solid;
 }
 .header__links-item--active a{
@@ -370,9 +367,6 @@ nav,
     width: 5rem;
     height: 8rem;
     background-image: linear-gradient(to bottom, var(--third-color), transparent);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -400,9 +394,6 @@ nav,
 
 
 .products__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     column-gap: 10rem;
     padding: 0 10rem 0rem 10rem;
 }
@@ -540,9 +531,6 @@ text-transform: uppercase;
 
 
 .comments__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     column-gap: 10rem;
 }
 
@@ -597,11 +585,11 @@ text-transform: uppercase;
 
 
 .slider-state{
+    column-gap: 1rem;    
+    margin: 5rem 0 10rem;
     display: flex;
-    column-gap: 1rem;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0 10rem;
 }
 
 .slider-state__circle-current-slide{
