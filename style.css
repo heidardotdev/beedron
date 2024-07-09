@@ -148,7 +148,6 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -233,7 +232,6 @@ nav,
 .header__links-item-link{
     padding: 2rem 5rem;
     border-radius: 2rem;
-    text-transform: uppercase;
     border: .3rem var(--third-color) solid;
 }
 .header__links-item--active a{
@@ -280,7 +278,6 @@ nav,
     font-size: 10rem;
     font-family: "extrabold";
     line-height: 1;
-    text-transform: uppercase;
 }
 
 .header__content-text{
@@ -477,7 +474,6 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    text-transform: uppercase;
     margin-right: 5rem;
 }
 .collection__content-title{
@@ -541,7 +537,6 @@ text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-transform: uppercase;
 }
 
 .comment__profile{
@@ -699,7 +694,6 @@ footer{
     color: var(--primery-color);
     font-size: 1.5rem;
     font-family: "bold";
-    text-transform: uppercase;
     cursor: pointer;
 }
 
