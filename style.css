@@ -151,7 +151,6 @@ body{
 
 header{
     display: flex;
-    flex-direction: column;
     position: relative;
 }
 
@@ -200,7 +199,6 @@ nav,
     position: absolute;
     row-gap: 2rem;
     display: flex;
-    flex-direction: column;
     top: -20rem;
     left: 0;
     right: 0;
@@ -274,7 +272,6 @@ nav,
     width: 50%;
     display: flex;
     align-self: flex-start;
-    flex-direction: column;
     row-gap: 2rem;
 }
 
@@ -332,7 +329,6 @@ nav,
 
 .header__offer-content{
     display: flex;
-    flex-direction: column;
     order: 1;
     row-gap: 1.2rem;
     margin-right: 10rem;
@@ -476,7 +472,6 @@ text-transform: uppercase;
 
 .collection__content{
     display: flex;
-    flex-direction: column;
     row-gap: 2rem;
     margin-right: 5rem;
 }
@@ -538,7 +533,6 @@ text-transform: uppercase;
     border-radius: 8rem;
     height: 30rem;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -666,7 +660,6 @@ footer{
 .quick-links__link-box,
 .social-media__link-box{
     display: flex;
-    flex-direction: column;
     row-gap: 1.5rem;
 }
 
