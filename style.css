@@ -43,13 +43,13 @@ input {
 
 
 .container {
-    margin-right: auto;
+    max-width: 1400px;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1450px;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     position: relative;
-}
+  }
 
 /* -------------------------------- font face ------------------------------- */
 
