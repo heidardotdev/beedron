@@ -212,6 +212,10 @@ nav,
     transition: all 200ms ease-in 180ms;
 }
 
+
+
+/* -------------------------------- menu bars ------------------------------- */
+
 /* ----------------------------- menu item hover ----------------------------- */
 
 .menu__item:nth-child(2):hover .submenu {
@@ -278,6 +282,8 @@ nav,
 .header__links-item--active a {
     color: var(--primery-color);
 }
+
+
 
 
 /* ----------------------------- header wrapper ----------------------------- */
