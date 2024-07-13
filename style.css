@@ -771,3 +771,9 @@ footer {
         max-width: 54rem;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 46rem;
+    }
+}
