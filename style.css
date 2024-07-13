@@ -183,7 +183,7 @@ header {
 /* ---------------------------- navigation style ---------------------------- */
 
 
-nav{
+nav {
     margin-top: 2rem;
 }
 
@@ -215,6 +215,59 @@ nav,
 
 
 /* -------------------------------- menu bars ------------------------------- */
+
+.menu__bars {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, .10);
+    cursor: pointer;
+    display: none;
+}
+
+.menu__bars-line {
+    position: relative;
+}
+
+.menu__bars-line,
+.menu__bars-line::before,
+.menu__bars-line::after {
+    background-color: var(--third-color);
+    width: 4.5rem;
+    height: .5rem;
+    border-radius: 5rem;
+    transition: all 250ms ease-out;
+}
+
+.menu__bars-line::before {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+}
+
+.menu__bars-line::after {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+}
+
+.menu__bars:hover .menu__bars-line {
+    background-color: transparent;
+}
+
+
+/* ----------------------------- menu bars hover ---------------------------- */
+
+
+.menu__bars:hover .menu__bars-line::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.menu__bars:hover .menu__bars-line::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
 
 /* ----------------------------- menu item hover ----------------------------- */
 
