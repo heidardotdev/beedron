@@ -41,12 +41,14 @@ input {
 
 /* ----------------------------- container style ---------------------------- */
 
-.container{
-    margin: 0 auto;
-    max-width: 1400px;
-    position: relative;
-    padding: 2rem 1.5rem 0;
 
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1450px;
+    position: relative;
 }
 
 /* -------------------------------- font face ------------------------------- */
