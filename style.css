@@ -123,6 +123,9 @@ body{
     right: 0;
 }
 
+
+/* ------------------------- customize the scrollbar ------------------------ */
+
 /* ------------------------------ helper class ------------------------------ */
 .uppercase{
     text-transform: uppercase;
