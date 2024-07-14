@@ -812,6 +812,9 @@ footer {
     .container {
         max-width: 132rem;
     }
+    .header__content-title{
+        font-size: 8rem;
+    }
 }
 
 
@@ -819,6 +822,7 @@ footer {
     .container {
         max-width: 114rem;
     }
+
 }
 
 
