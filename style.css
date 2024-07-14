@@ -838,6 +838,10 @@ footer {
         padding: 2rem 3rem;
         display: inline-block;
     }
+
+    .header__content-title{
+        font-size: 7rem;
+    }
 }
 
 
