@@ -838,6 +838,32 @@ footer {
     .container {
         max-width: 96rem;
     }
+
+    .header__links{
+        display: none;
+    }
+
+    .menu__bars{
+        display: flex;
+    }
+
+    .menu{
+       height: 100vh; 
+       width: 30vw;
+       flex-direction: column;
+       justify-content: start;
+       gap: 5rem;
+       position: absolute;
+       right: -100%;
+       top: 0;
+       z-index: 100;
+       display: none;
+    }
+
+    .menu__bars:hover .menu{
+        right: 0;
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
