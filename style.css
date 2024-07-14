@@ -771,6 +771,10 @@ footer {
     overflow: hidden;
 }
 
+.community {
+    order: 4;
+}
+
 .community__input-box input[type="email"] {
     background-color: transparent;
     font-size: 1.5rem;
@@ -812,7 +816,8 @@ footer {
     .container {
         max-width: 132rem;
     }
-    .header__content-title{
+
+    .header__content-title {
         font-size: 8rem;
     }
 }
@@ -823,13 +828,27 @@ footer {
         max-width: 114rem;
     }
 
-    .header__offer{
+    .header__offer {
         width: 45rem;
         margin-top: 8rem;
     }
 
-    .header__offer-content{
+    .header__offer-content {
         margin-right: 6rem;
+    }
+
+    .footer__wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+            "footer__caption  community"
+            "social-medai quick-links"
+        ;
+        gap: 3rem;
+    }
+
+    .community {
+        order: unset;
     }
 
 
@@ -842,28 +861,28 @@ footer {
         max-width: 96rem;
     }
 
-    .header__links{
+    .header__links {
         display: none;
     }
 
-    .menu__bars{
+    .menu__bars {
         display: flex;
     }
 
-    .menu{
-       height: 100vh; 
-       width: 30vw;
-       flex-direction: column;
-       justify-content: start;
-       gap: 5rem;
-       position: absolute;
-       right: -100%;
-       top: 0;
-       z-index: 100;
-       display: none;
+    .menu {
+        height: 100vh;
+        width: 30vw;
+        flex-direction: column;
+        justify-content: start;
+        gap: 5rem;
+        position: absolute;
+        right: -100%;
+        top: 0;
+        z-index: 100;
+        display: none;
     }
 
-    .menu__bars:hover .menu{
+    .menu__bars:hover .menu {
         right: 0;
         display: block;
     }
