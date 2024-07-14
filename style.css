@@ -825,11 +825,14 @@ footer {
 
     .header__offer{
         width: 45rem;
+        margin-top: 8rem;
     }
 
     .header__offer-content{
         margin-right: 6rem;
     }
+
+
 
 }
 
