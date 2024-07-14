@@ -834,37 +834,10 @@ footer {
         max-width: 114rem;
     }
 
-    .header__offer {
-        width: 40rem;
-        margin-top: 8rem;
+    .header__links-item-link{
+        padding: 2rem 3rem;
+        display: inline-block;
     }
-
-    .header__offer-content {
-        margin-right: 6rem;
-    }
-
-    .footer__wrapper {
-        display: grid;
-        justify-content: center;
-        grid-template-areas:
-            "footer__caption  community"
-            "social-medai quick-links"
-        ;
-        gap: 3rem;
-    }
-
-    .community {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    
-    .header__content-text {
-        width: 47rem;
-        font-size: 1.7rem;
-    }
-
-
 }
 
 
