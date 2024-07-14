@@ -324,7 +324,7 @@ nav,
 }
 
 .header__links-item-link {
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
     border-radius: 2rem;
     border: .3rem var(--third-color) solid;
 }
