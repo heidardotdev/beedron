@@ -565,6 +565,7 @@ nav,
     display: flex;
     row-gap: 2rem;
     margin-right: 5rem;
+    width: 50%;
 }
 
 .collection__content-title {
