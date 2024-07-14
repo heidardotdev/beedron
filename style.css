@@ -823,6 +823,14 @@ footer {
         max-width: 114rem;
     }
 
+    .header__offer{
+        width: 45rem;
+    }
+
+    .header__offer-content{
+        margin-right: 6rem;
+    }
+
 }
 
 
