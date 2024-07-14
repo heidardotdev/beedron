@@ -821,6 +821,11 @@ footer {
     .header__content-title {
         font-size: 8rem;
     }
+
+    .header__content-text {
+        width: 55rem;
+        font-size: 2rem;
+    }
 }
 
 
@@ -852,6 +857,11 @@ footer {
         order: unset;
     }
 
+    
+    .header__content-text {
+        width: 47rem;
+        font-size: 1.7rem;
+    }
 
 
 }
