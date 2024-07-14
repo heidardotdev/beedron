@@ -405,7 +405,7 @@ nav,
 
 .header__offer {
     align-self: end;
-    width: 60rem;
+    width: 50rem;
     display: flex;
 }
 
@@ -423,7 +423,7 @@ nav,
     display: flex;
     order: 1;
     row-gap: 1.2rem;
-    margin-right: 10rem;
+    margin-right: 8rem;
 }
 
 .header__offer-content-title {
@@ -437,7 +437,7 @@ nav,
 
 .header__offer-img-box {
     position: absolute;
-    left: -2.2rem;
+    left: -8rem;
     bottom: 0;
 }
 
