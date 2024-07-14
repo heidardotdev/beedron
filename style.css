@@ -826,6 +826,11 @@ footer {
         width: 55rem;
         font-size: 2rem;
     }
+
+    .comments__wrapper{
+        margin: 0 auto;
+        max-width: 89rem;
+    }
 }
 
 
