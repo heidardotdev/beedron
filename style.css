@@ -842,6 +842,12 @@ footer {
     .header__content-title{
         font-size: 7rem;
     }
+
+
+    .header__content-text{
+        font-size: unset;
+        width: 47rem;
+    }
 }
 
 
