@@ -720,6 +720,7 @@ footer {
 .community {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: start;
     row-gap: 3rem;
 }
@@ -820,6 +821,19 @@ footer {
         max-width: 132rem;
     }
 
+    .header__content-title {
+        font-size: 8rem;
+    }
+
+    .header__content-text {
+        width: 55rem;
+        font-size: 2rem;
+    }
+
+    .comments__wrapper{
+        margin: 0 auto;
+        max-width: 89rem;
+    }
 }
 
 
@@ -828,20 +842,37 @@ footer {
         max-width: 114rem;
     }
 
-    .header__links-item-link{
-        padding: 2rem 3rem;
-        display: inline-block;
+    .header__offer {
+        width: 40rem;
+        margin-top: 8rem;
     }
 
-    .header__content-title{
-        font-size: 7rem;
+    .header__offer-content {
+        margin-right: 6rem;
     }
 
+    .footer__wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-areas:
+            "footer__caption  community"
+            "social-medai quick-links"
+        ;
+        gap: 3rem;
+    }
 
-    .header__content-text{
-        font-size: unset;
+    .community {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    
+    .header__content-text {
         width: 47rem;
+        font-size: 1.7rem;
     }
+
+
 }
 
 
