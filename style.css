@@ -1213,7 +1213,45 @@ footer {
     }
 
 
-    
+    .footer__wrapper{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+    }
+    .quick-links{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        align-items: center;
+    }
+    .social-media{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .community{
+        grid-row: 4/5;
+    }
+    .quick-links, 
+    .social-media,
+    .community{
+        text-align: center;
+    }
+    .community .footer__title{
+        margin: 0 auto;
+    }
+
+    .community__input-box {
+        width: unset;
+    }
+
+    .header__offer{
+        width: 30rem;
+    }
+
+    .collection__content {
+        transform: translateY(1rem);
+        text-align: center;
+    }
 
 }
 
