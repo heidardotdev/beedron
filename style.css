@@ -806,7 +806,7 @@ footer {
 .seprater {
     width: 35%;
     height: .3rem;
-    margin: 3rem auto 0;
+    margin: 2rem auto 0;
     background-color: var(--third-color);
 }
 
