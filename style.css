@@ -639,8 +639,11 @@ nav,
 }
 
 .comment__profile-img-box {
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
+    padding: .5rem;
+    border-radius: 100%;
+    border: .3rem solid var(--secondry-color);
     display: flex;
 }
 
@@ -988,6 +991,9 @@ footer {
     .comment__profile-img-box{
         width: 8rem;
         height: 8rem;
+        padding: .5rem;
+        border-radius: 100%;
+        border: .3rem solid var(--primery-color);
     }
     
 
