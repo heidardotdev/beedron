@@ -686,6 +686,7 @@ nav,
 .slider-state__circle-current-slide {
     width: 3rem !important;
     border-radius: 1rem;
+    
 }
 
 .slider-state__circle,
@@ -697,6 +698,7 @@ nav,
 
 .slider-state__circle {
     border-radius: 100%;
+    border: .4rem solid var(--secondry-color);
 
 }
 
