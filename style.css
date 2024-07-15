@@ -373,12 +373,10 @@ nav,
     font-family: "extrabold";
     line-height: 1;
 }
-
 .header__content-text {
     width: 66rem;
     font-size: 2.5rem;
 }
-
 .header__content-links {
     display: flex;
     align-items: center;
