@@ -327,17 +327,14 @@ nav,
     column-gap: 2rem;
 }
 
-.header__links-item-link {
+.header__links-link {
     padding: 2rem 4rem;
     border-radius: 2rem;
     border: .3rem var(--third-color) solid;
 }
 
-.header__links-item--active a {
+.header__links-link--active  {
     background-color: var(--third-color);
-}
-
-.header__links-item--active a {
     color: var(--primery-color);
 }
 
