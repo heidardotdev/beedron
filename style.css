@@ -720,7 +720,6 @@ footer {
 .community {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: start;
     row-gap: 3rem;
 }
@@ -864,6 +863,7 @@ footer {
     .community {
         grid-column: 2/3;
         grid-row: 1/2;
+        justify-content: center;
     }
 
     
