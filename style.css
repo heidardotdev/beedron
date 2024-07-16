@@ -1187,6 +1187,9 @@ footer {
         max-width: 46rem;
     }
 
+    .header__wrapper{
+        margin-top: -5rem;
+    }
 
     .comments__wrapper{
         display: grid;
