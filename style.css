@@ -1187,6 +1187,12 @@ footer {
         max-width: 46rem;
     }
 
+
+    .comments__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
     .header__offer{
         margin: 0 auto ;
         margin-top: 20rem;
@@ -1249,18 +1255,15 @@ footer {
     }
 
     .collection__content {
-        transform: translateY(4rem);
+        transform: translateY(9rem);
         text-align: center;
     }
 
     .collection__wrapper{
-        height: 50rem;
+        height: 55rem;
     }
 
-    .comment{
-        width: 32rem;
-        margin-right: auto;
-    }
+
 
     .comment__text{
         font-size: 1.5rem;
