@@ -1249,8 +1249,27 @@ footer {
     }
 
     .collection__content {
-        transform: translateY(1rem);
+        transform: translateY(4rem);
         text-align: center;
+    }
+
+    .collection__wrapper{
+        height: 50rem;
+    }
+
+    .comment{
+        width: 32rem;
+        margin-right: auto;
+    }
+
+    .comment__text{
+        font-size: 1.5rem;
+        width: auto;
+    }
+
+    .comment__profile-img-box{
+        width: 8rem;
+        height: 8rem;
     }
 
 }
