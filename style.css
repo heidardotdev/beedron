@@ -87,6 +87,12 @@ body {
     font-size: 1.8rem;
     font-family: "semibold";
     background-color: var(--primery-color);
+    overflow-x: hidden;
+}
+
+*::selection{
+    background-color: #ffae00;
+
 }
 
 /* ------------------------------- componennt ------------------------------- */
@@ -443,6 +449,17 @@ nav,
     align-self: end;
     width: 50rem;
     display: flex;
+    animation: offer 1s .7s forwards;
+}
+@keyframes offer {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .header__offer-wrapper {
