@@ -7,21 +7,28 @@
 
 ## features
 
--   open source
--   full responsive 
--   morphism design trand
+-   **open source**
+-  **full responsive**
+-   **morphism design trand**
 
 
 ## langs and techs
 
+**html** 
+<br/>
+**css**
+
 
 ##  description
 
+
+actually the beedron landing page has designed desktop first however I've coded that full responsive but desktop first 
+
 ### contributers
 
-designer: youtube.com/@desingr 
+designer: [Designer](https://youtube.com/@desingr) 
 <br/>
-developer: github.com/heidardotdev
+developer: [Heidar.Dev](https://github.com/heidardotdev)
 
 
 
