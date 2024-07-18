@@ -934,6 +934,15 @@ footer {
 
 @media (max-width: 1400px) {
 
+
+
+    .bg-circle--medium-header{
+        right: 20%;
+    }
+
+    
+
+
     /* -------------------------------- container ------------------------------- */
 
     .container {
