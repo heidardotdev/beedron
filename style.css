@@ -940,7 +940,9 @@ footer {
         right: 20%;
     }
 
-    
+    .bg-circle--xmedium-product{
+        top: 20%;
+    }
 
 
     /* -------------------------------- container ------------------------------- */
@@ -1016,6 +1018,13 @@ footer {
 
 
 @media (max-width: 992px) {
+
+
+    .bg-circle--medium-header{
+        top: 70%;
+        left: 20%;
+    }
+
     .container {
         max-width: 96rem;
     }
