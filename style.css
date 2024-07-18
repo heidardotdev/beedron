@@ -171,6 +171,12 @@ body {
     bottom: -15rem;
 
 }
+.bg-circle--xsmall-collection{
+    top: -10rem;
+    right: 50rem;
+
+    margin-left: auto;
+}
 
 /* ------------------------- customize the scrollbar ------------------------ */
 
