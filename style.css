@@ -1013,12 +1013,25 @@ footer {
         font-size: 1.7rem;
     }
 
+    .bg-circle--xsmall-collection{
+        right: 20%;
+    }
+
 
 }
 
 
 @media (max-width: 992px) {
 
+   
+.bg-circle--xmedium-product{
+    left: 20%;
+    top: 10%;
+}
+
+.bg-circle--xsmall-collection{
+    top: 60rem ;
+}
 
     .bg-circle--medium-header{
         top: 70%;
@@ -1174,6 +1187,18 @@ footer {
         max-width: 72rem;
     }
 
+    .bg-circle--xmedium--comment{
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+    }
+    .bg-circle--medium-header{
+        display: none;
+    }
+    .bg-circle--small{
+        left: 0;
+    }
     .header__content {
         max-width: 48rem;
     }
@@ -1367,6 +1392,17 @@ footer {
     .comment__profile-img-box{
         width: 8rem;
         height: 8rem;
+    }
+
+    .bg-circle--xxl{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .bg-circle--xsmall{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
 
 }
