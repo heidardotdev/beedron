@@ -7,6 +7,10 @@
 
 ## features
 
+-   open source
+-   full responsive 
+-   morphism design trand
+
 
 ## langs and techs
 
@@ -14,7 +18,9 @@
 ##  description
 
 ### contributers
-designer: youtube.com/@desingr
+
+designer: youtube.com/@desingr 
+<br/>
 developer: github.com/heidardotdev
 
 
