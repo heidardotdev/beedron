@@ -1,5 +1,7 @@
 # beedron 
 
+![img](./images/beedron%20cover.png)
+
 
 
 
@@ -10,6 +12,10 @@
 
 
 ##  description
+
+### contributers
+designer: youtube.com/@desingr
+developer: github.com/heidardotdev
 
 
 
