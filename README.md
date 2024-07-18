@@ -6,7 +6,7 @@
 ## features
 
 
-##  langs and techs
+## langs and techs
 
 
 ##  description
