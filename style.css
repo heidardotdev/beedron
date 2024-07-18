@@ -181,6 +181,13 @@ body {
 .bg-circle--xmedium--comment{
     left: 40rem;
 }
+.bg-circle--xxsmall{
+    width: 10rem;
+    height: 10rem;
+    top: -3rem;
+    left: 17rem;
+    filter: blur(1rem);
+}
 
 /* ------------------------- customize the scrollbar ------------------------ */
 
