@@ -87,7 +87,6 @@ body {
     font-size: 1.8rem;
     font-family: "semibold";
     background-color: var(--primery-color);
-    overflow-x: hidden;
 }
 
 *::selection{
@@ -133,6 +132,45 @@ body {
     right: 0;
 }
 
+
+.bg-circle{
+    width: 50rem;
+    height: 50rem;
+     background-image: linear-gradient(to right,#ffcc6d00,var(--secondry-color));
+    border-radius: 100%;
+    position: absolute;
+    z-index: -100;
+}
+
+
+.bg-circle--xmedium{
+    width: 25rem;
+    height: 25rem;
+    right: 22rem;
+    bottom: -10rem;
+}
+
+.bg-circle--medium{
+    width: 20rem;
+    height: 20rem;
+    right: -3rem;
+    top: 13rem;
+}
+
+.bg-circle--small{
+    width: 16rem;
+    height: 16rem;
+    left: 49rem;
+    bottom: -2rem;
+
+}
+.bg-circle--xsmall{
+    width: 12rem;
+    height: 12rem;
+    left: 32rem;
+    bottom: -15rem;
+
+}
 
 /* ------------------------- customize the scrollbar ------------------------ */
 
@@ -536,6 +574,7 @@ nav,
 
 
 .products__wrapper {
+    position: relative;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
