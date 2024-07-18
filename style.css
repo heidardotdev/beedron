@@ -178,6 +178,10 @@ body {
     margin-left: auto;
 }
 
+.bg-circle--xmedium--comment{
+    left: 40rem;
+}
+
 /* ------------------------- customize the scrollbar ------------------------ */
 
 body::-webkit-scrollbar {
