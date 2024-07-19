@@ -26,7 +26,7 @@ actually the beedron landing page has designed desktop first however I've coded 
 
 ### contributers
 
-designer: [Designer](https://youtube.com/@desingr) 
+designer: [Dsingr](https://www.youtube.com/@Dsingr) 
 <br/>
 developer: [Heidar.Dev](https://github.com/heidardotdev)
 
